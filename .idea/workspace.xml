@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95356a74-53ab-4481-a0a2-47a5f880f957" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Laravel/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.53085107">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/admLay.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1886">
+                  <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/articulos/homeArt.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="7912">
+                  <caret line="344" selection-start-line="344" selection-end-line="345" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/articulos/homeArticulos.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3036">
+                  <caret line="132" column="76" selection-start-line="132" selection-start-column="76" selection-end-line="132" selection-end-column="76" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/homeVentaV2.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="537">
+                  <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/listaCarrito.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="575">
+                  <caret line="25" column="68" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="68" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/modeloFactura.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1196">
+                  <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/listaArtVentaSinStock.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/homeVentas.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4232">
+                  <caret line="184" column="80" selection-start-line="184" selection-start-column="80" selection-end-line="184" selection-end-column="80" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="vertical" split-proportion="0.51329243">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/asincrono/home.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="354">
+                      <caret line="62" selection-start-line="62" selection-end-line="62" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/asincrono/artInv.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="115">
+                      <caret line="5" selection-start-line="5" selection-end-line="5" />
+                      <folding>
+                        <element signature="n#!!block;n#validar#0" />
+                        <element signature="n#!!block;n#showPro#0" />
+                        <element signature="n#!!block;n#addCantidad#0" />
+                        <element signature="n#!!block;n#subtractCantidad#0" />
+                        <element signature="n#!!block;n#deletePro#0" />
+                        <element signature="n#!!block;n#filtArtProve#0" />
+                        <element signature="n#!!block;n#showModalNesArt#0" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/asincrono/articulos.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="115">
+                      <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+                      <folding>
+                        <element signature="n#!!block;n#onVerArticulo#0" />
+                        <element signature="n#!!block;n#onBuscarArticulo#0" />
+                        <element signature="n#!!block;n#listarArticulos#0" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/asincrono/ventasV2.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1794">
+                      <caret line="321" column="9" selection-start-line="321" selection-start-column="9" selection-end-line="321" selection-end-column="9" />
+                      <folding>
+                        <element signature="n#!!block;n#validar#0" />
+                        <element signature="n#!!block;n#modalNewCliente#0" />
+                        <element signature="n#!!block;n#registrarCliente#0" />
+                        <element signature="n#!!block;n#calcularPrecioArt#0" />
+                        <element signature="n#!!block;n#agregarArt#0" />
+                        <element signature="n#!!block;n#buscarCliente#0" />
+                        <element signature="n#!!block;n#datosArt#0" />
+                        <element signature="n#!!block;n#listCarrito#0" />
+                        <element signature="n#!!block;n#CarrElimiArt#0" />
+                        <element signature="n#!!block;n#eliminarVenta#0" />
+                        <element signature="n#!!block;n#realizarVenta#0" />
+                        <element signature="n#!!block;n#ventaVerificarStock#0" />
+                        <element signature="n#!!block;n#cerrarventa#0" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/asincrono/ventas.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="161">
+                      <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/asincrono/provedores.js">
+                  <provider selected="true" editor-type-id="text-editor" />
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/asincrono/admin.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="529">
+                      <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="22" />
+                      <folding>
+                        <element signature="n#!!block;n#onSelectArt#0" />
+                        <element signature="n#!!block;n#calcularPrecio#0" />
+                        <element signature="n#!!block;n#onPrecioUnidad#0" />
+                        <element signature="n#!!block;n#onSelectFecha#0" />
+                        <element signature="n#!!block;n#onDetalleVenta#0" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/Laravel/routes/api.php">
+                  <provider selected="true" editor-type-id="text-editor" />
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1771">
+                      <caret line="86" column="73" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="73" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/VentaController.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="77">
+                      <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>like</find>
+      <find>alertify</find>
+      <find>post</find>
+      <find>meta</find>
+      <find>detall</find>
+      <find>.pn</find>
+      <find>titleModalArtSinStocl</find>
+      <find>hola</find>
+      <find>ver</find>
+      <find>hide</find>
+      <find>br</find>
+      <find>agregaralca</find>
+      <find>listaventa</find>
+      <find>print</find>
+      <find>datos</find>
+      <find>reset</find>
+      <find>listaventav2</find>
+      <find>prin</find>
+      <find>unidad</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Laravel/routes/api.php" />
+        <option value="$PROJECT_DIR$/asincrono/admin.js" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/venta/homeVentas.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/AjaxVentasController.php" />
+        <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/ClientesController.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/venta/listaArtVentaSinStock.blade.php" />
+        <option value="$PROJECT_DIR$/asincrono/articulos.js" />
+        <option value="$PROJECT_DIR$/Laravel/database/migrations/2018_09_30_144631_create_articulos_table.php" />
+        <option value="$PROJECT_DIR$/Laravel/routes/web.php" />
+        <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/artInvController.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/articulos/homeArt.blade.php" />
+        <option value="$PROJECT_DIR$/asincrono/artInv.js" />
+        <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/ArticulosController.php" />
+        <option value="$PROJECT_DIR$/Laravel/.env" />
+        <option value="$PROJECT_DIR$/Laravel/app/Http/Controllers/VentaController.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/venta/listaCarrito.blade.php" />
+        <option value="$PROJECT_DIR$/asincrono/ventasV2.js" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/venta/modeloFactura.blade.php" />
+        <option value="$PROJECT_DIR$/asincrono/home.js" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/layouts/admLay.blade.php" />
+        <option value="$PROJECT_DIR$/Laravel/resources/views/venta/homeVentaV2.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Laravel/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/composer" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/simplesoftwareio/simple-qrcode" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/Laravel/vendor/php-http/httplug" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="36" />
+    <option name="width" value="1927" />
+    <option name="height" value="1051" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95356a74-53ab-4481-a0a2-47a5f880f957" name="Default Changelist" comment="" />
+      <created>1544370159311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544370159311</updated>
+      <workItem from="1544370160803" duration="20000" />
+      <workItem from="1544370216116" duration="2965000" />
+      <workItem from="1546557794819" duration="2812000" />
+      <workItem from="1546713188191" duration="1645000" />
+      <workItem from="1546827308691" duration="1006000" />
+      <workItem from="1546880033032" duration="2643000" />
+      <workItem from="1546959679260" duration="1345000" />
+      <workItem from="1546964578528" duration="15397000" />
+      <workItem from="1547051384784" duration="599000" />
+      <workItem from="1547063251015" duration="7365000" />
+      <workItem from="1547156159710" duration="21095000" />
+      <workItem from="1547315923084" duration="3814000" />
+      <workItem from="1547517708402" duration="10367000" />
+      <workItem from="1547613875640" duration="801000" />
+      <workItem from="1547615493863" duration="39000" />
+      <workItem from="1547615579332" duration="3630000" />
+      <workItem from="1547654556590" duration="8124000" />
+      <workItem from="1547737874320" duration="26633000" />
+      <workItem from="1547820042257" duration="599000" />
+      <workItem from="1547844342420" duration="621000" />
+      <workItem from="1548122171850" duration="3667000" />
+      <workItem from="1548170905020" duration="603000" />
+      <workItem from="1548282038486" duration="4542000" />
+      <workItem from="1548360911601" duration="4469000" />
+      <workItem from="1548482394105" duration="1525000" />
+      <workItem from="1548514640546" duration="3088000" />
+      <workItem from="1548698118345" duration="13338000" />
+      <workItem from="1548770561736" duration="11235000" />
+      <workItem from="1548861723682" duration="7474000" />
+      <workItem from="1548985723142" duration="6953000" />
+      <workItem from="1549040473532" duration="467000" />
+      <workItem from="1551322798747" duration="3299000" />
+      <workItem from="1551389710247" duration="3920000" />
+      <workItem from="1551653699009" duration="7834000" />
+      <workItem from="1551715632872" duration="5079000" />
+      <workItem from="1551800652557" duration="1884000" />
+      <workItem from="1551840095173" duration="4363000" />
+      <workItem from="1551935175076" duration="708000" />
+      <workItem from="1551967898238" duration="16152000" />
+      <workItem from="1552058390722" duration="16351000" />
+      <workItem from="1552105500541" duration="648000" />
+      <workItem from="1552149277452" duration="607000" />
+      <workItem from="1555011906768" duration="6941000" />
+      <workItem from="1556141032775" duration="6175000" />
+      <workItem from="1556222179346" duration="1984000" />
+      <workItem from="1556324072092" duration="1757000" />
+      <workItem from="1556374660218" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="247193000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" type="SLIDING" weight="0.2828125" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991803" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/homeAdm.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/reportes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc" />
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/ClientesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/AjaxVentasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/UsuariosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/database/migrations/2018_09_30_144631_create_articulos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/ArticulosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/artInvController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/StockController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/articulosAjaxController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/admController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/factura.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/layouts/admLay.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1886">
+          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/articulos/homeArt.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7912">
+          <caret line="344" selection-start-line="344" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/articulos/homeArticulos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="132" column="76" selection-start-line="132" selection-start-column="76" selection-end-line="132" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/listaCarrito.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/modeloFactura.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/listaArtVentaSinStock.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/homeVentas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4232">
+          <caret line="184" column="80" selection-start-line="184" selection-start-column="80" selection-end-line="184" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/resources/views/venta/homeVentaV2.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/artInv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="n#!!block;n#validar#0" />
+            <element signature="n#!!block;n#showPro#0" />
+            <element signature="n#!!block;n#addCantidad#0" />
+            <element signature="n#!!block;n#subtractCantidad#0" />
+            <element signature="n#!!block;n#deletePro#0" />
+            <element signature="n#!!block;n#filtArtProve#0" />
+            <element signature="n#!!block;n#showModalNesArt#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/articulos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!block;n#onVerArticulo#0" />
+            <element signature="n#!!block;n#onBuscarArticulo#0" />
+            <element signature="n#!!block;n#listarArticulos#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/ventasV2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="321" column="9" selection-start-line="321" selection-start-column="9" selection-end-line="321" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#validar#0" />
+            <element signature="n#!!block;n#modalNewCliente#0" />
+            <element signature="n#!!block;n#registrarCliente#0" />
+            <element signature="n#!!block;n#calcularPrecioArt#0" />
+            <element signature="n#!!block;n#agregarArt#0" />
+            <element signature="n#!!block;n#buscarCliente#0" />
+            <element signature="n#!!block;n#datosArt#0" />
+            <element signature="n#!!block;n#listCarrito#0" />
+            <element signature="n#!!block;n#CarrElimiArt#0" />
+            <element signature="n#!!block;n#eliminarVenta#0" />
+            <element signature="n#!!block;n#realizarVenta#0" />
+            <element signature="n#!!block;n#ventaVerificarStock#0" />
+            <element signature="n#!!block;n#cerrarventa#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/ventas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/provedores.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asincrono/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!block;n#onSelectArt#0" />
+            <element signature="n#!!block;n#calcularPrecio#0" />
+            <element signature="n#!!block;n#onPrecioUnidad#0" />
+            <element signature="n#!!block;n#onSelectFecha#0" />
+            <element signature="n#!!block;n#onDetalleVenta#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="86" column="73" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Laravel/app/Http/Controllers/VentaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
