@@ -161,6 +161,9 @@ return [
         App\Providers\RouteServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class,
+        // Barryvdh\DomPDF\ServiceProvider::class,
+        
+        
 
     ],
 
@@ -213,6 +216,8 @@ return [
 
         'DataTables'=>Yajra\DataTables\Facades\DataTables::class,
         'QrCode' => SimpleSoftwareIO\QrCode\Facades\QrCode::class,
+        // 'PDF' => Barryvdh\DomPDF\Facade::class,
+        
 
     ],
 

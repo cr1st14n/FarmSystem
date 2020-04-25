@@ -1,15 +1,4 @@
 <?php
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 //------  Rutas para el Login--------------//
 Route::get('/','Auth\LoginController@showLoginForm');
 Route::post('/loginFarm','Auth\LoginController@login')->name('loginFarm');
@@ -116,3 +105,4 @@ Route::group(['prefix' => '/Adm'], function(){
 		});
 
 });
+

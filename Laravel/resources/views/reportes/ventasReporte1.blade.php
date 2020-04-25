@@ -70,7 +70,7 @@
     <!-- Table row -->
     <div class="row">
       <div class="col-xs-12 table-responsive">
-        <table class="display table-striped" style="width:100%">
+        <table class="display table-striped " style="width:100%">
           @if($tabla == "venta")    
               <thead>
               <tr>
@@ -144,10 +144,11 @@
 </div>
 <!-- ./wrapper -->
 <script src="{{ asset('plantilla/bower_components/jquery/dist/jquery.min.js') }}"></script>
-<script type="text/javascript">
-  window.print();
+<script>
+window.print();
+setTimeout(() => {
   window.close();
-
+}, 3000);
 </script>
 </body>
 </html>

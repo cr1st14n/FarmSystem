@@ -146,10 +146,13 @@ function buscarCliente() {
 function datosArt() {
     var id = document.getElementById('articuloSelec').value;
     $.get('/FarmSystem/Adm/venta/datoArtVenta/'+id+'',function (datos) {
+        console.log(datos);
         document.getElementById('stockART').innerHTML=datos.sto_cantidad;
         document.getElementById('precioART').innerHTML=datos.art_costoVenta;
         document.getElementById('nomGenericoArt').innerHTML=datos.art_nombreGenerico;
         document.getElementById('provedorArt').innerHTML=datos.prov_nombre;
+        document.getElementById('art_accionTerapeutica').innerHTML=datos.art_accionTerapeutica;
+        document.getElementById('art_laboratorio').innerHTML=datos.art_laboratorio;
         // console.log(datos);
         document.getElementById('cantidadArt').setAttribute('max',datos.sto_cantidad);
         document.getElementById('cantidadArt').value="";

@@ -341,6 +341,8 @@ class VentaController extends Controller
                         'articulos.art_nombreGenerico',
                         'provedores.prov_nombre',
                         'art_nombreComercial',
+                        'art_accionTerapeutica',
+                        'art_laboratorio',
                         'art_composicion',
                         'art_laboratorio',
                         'art_proveedor',

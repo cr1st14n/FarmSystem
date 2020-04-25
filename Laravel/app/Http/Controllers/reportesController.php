@@ -14,9 +14,9 @@ use App\fechvencimiento;
 use App\clientes;
 use App\venta;
 use App\detalleVenta;
-
+use Barryvdh\DomPDF\PDF;
 use Carbon\Carbon;
-
+use Illuminate\Support\Facades\App;
 
 class reportesController extends Controller
 {
@@ -65,6 +65,7 @@ class reportesController extends Controller
     }
     public function generarReporteventas(Request $request)
     {   
+       
 
         $fechaActual = Carbon::now()->format('d-m-Y');
         $CostoTotal =0 ;
@@ -133,7 +134,7 @@ class reportesController extends Controller
 
                     $fechaIF= "$fechaI a $fechaF";
                     //return $ventas;
-                    return view('reportes.ventasReporte1')->with("ventas",$ventas)
+                  return view('reportes.ventasReporte1')->with("ventas",$ventas)
                                                           ->with("tabla","venta")                                      
                                                           ->with("fechaActual",$fechaActual)
                                                           ->with("fecha0",$fechaIF)
@@ -249,7 +250,7 @@ class reportesController extends Controller
             }else {
                 if ($request->input("tipofecha") == 1) {
                     //conslta por detalle articulo ususrio unico con tipo de fecha1
-                    $ventas = venta::join('users','ventas.ca_cod_usu','=','users.usu_ci')
+                    return venta::join('users','ventas.ca_cod_usu','=','users.usu_ci')
                                     ->join('detalle_ventas','detalle_ventas.cod_venta','=','ventas.id')
                                     ->join('articulos','articulos.id','=','detalle_ventas.cod_art')
                                     ->join('clientes','clientes.id','=','ventas.vent_IdCliente')
@@ -305,8 +306,7 @@ class reportesController extends Controller
             }
         }
 
-
-
-        return $request;
+       
+        
     }
 }    

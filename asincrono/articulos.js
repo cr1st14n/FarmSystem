@@ -64,7 +64,7 @@ function listarArticulos (){
 	$.get('/FarmSystem/api/listArticulosAjax/',function(articulo){
     $('#listarticulo').html("");
     for (var i = articulo.length - 1; i >= 0; i--) {
-      console.log(articulo[i]);
+      // console.log(articulo[i]);
       var tr = `<tr>
                 <td>Art-`+articulo[i].id+`</td>
                 <td>`+articulo[i].art_nombreGenerico+`</td>
