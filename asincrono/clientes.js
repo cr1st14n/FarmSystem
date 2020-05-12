@@ -33,6 +33,26 @@ function onListClientes() {
     }
   });
 }
+
+$('#form_create_Cliente').submit(function (e) { 
+  e.preventDefault();
+  $.ajax({
+    type: "post",
+    url: "create",
+    data: $(this).serialize(),
+    success: function (response) {
+      if (response=='exito') {
+        alertify.success('Cliente registrado.');
+        $('#modal-regisUser').modal('hide');
+        onListClientes();
+        $('#form_create_Cliente').trigger('reset');
+      } else {
+        alertify.error('Error!. Vuelva a intentarlo.');
+      }
+    } 
+  });
+});
+
 function editDatosCliente(id) {
   $.ajax({
     type: "get",

@@ -35,6 +35,10 @@ class ClientesController extends Controller
         $cliente = new clientes;
         $cliente->vent_clienteNombre=$request->input("Nombre");
         $cliente->vent_clienteNit=$request->input("dni");
+        $cliente->ca_estado=1;
+        $cliente->ca_cod_usu=Auth::user()->usu_ci;
+        $cliente->ca_tipo='create';
+        $cliente->ca_fecha=Carbon::now();
         $resp=$cliente->save();
         /*\Session::flash('flash_success','Cliente registrado.');
         return redirect()->action('ClientesController@index');*/
