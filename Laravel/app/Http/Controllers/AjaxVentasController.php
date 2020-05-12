@@ -18,7 +18,8 @@ class AjaxVentasController extends Controller
         return datatables()->query(DB::table('ventas')
                                 ->join('clientes','clientes.id','=','ventas.vent_IdCliente')
                                 ->join('facturas','facturas.cod_venta','=','ventas.id')
-                                ->select('ventas.*','clientes.vent_clienteNombre','facturas.fact_numFactura','facturas.fac_pago'))
+                                ->select('ventas.*','clientes.vent_clienteNombre','facturas.fact_numFactura','facturas.fac_pago')
+                                ->selectRaw('IF(fact_estado=1,"Emitido","Anulado") as "fact_estado"' ))
                                 ->toJson();
 
     }

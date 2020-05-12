@@ -198,6 +198,17 @@ $("#formCreateReporteVentas").submit(function (e) {
   });
 });
 
+
+$('#btnGenRep').on('click', function () {
+  $.ajax({
+    type: "get",
+    url: "reportePrueba",
+    success: function (response) {
+      console.log(response);      
+    }
+  });
+});
+
 /* function demoFromHTML() {
   var pdf = new jsPDF("p", "pt", "letter");
   // source can be HTML-formatted string, or a reference

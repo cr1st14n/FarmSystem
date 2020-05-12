@@ -41,7 +41,7 @@ class admController extends Controller
     }
     public function listClientes()
     {
-        return clientes::where('id','!=',12)->get();
+        return clientes::where('ca_estado','!=',0)->get();
     }
     public function ListAjax()
     {

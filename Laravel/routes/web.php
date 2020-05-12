@@ -11,6 +11,8 @@ Route::get('/modelo', function()
 )->name('modelo');
 
 
+Route::get('123','HomeController@cont123');
+
 
 //rutas para modulos e administracion
 Route::group(['prefix' => '/Adm'], function(){
@@ -84,6 +86,7 @@ Route::group(['prefix' => '/Adm'], function(){
             Route::get('/ventaVerificar','VentaController@verificarventa');
             Route::get('/ventaVerificarStock','VentaController@verificarventaStockArt');
             Route::get('/registrarVenta/{nit}/pago/{pago}','VentaController@registrarVenta');
+            Route::post('/anularFactura','VentaController@anularVenta');
 
 
         });
@@ -94,6 +97,7 @@ Route::group(['prefix' => '/Adm'], function(){
 			Route::get('/verificarExistenciaCliente/{nit}','ClientesController@showVerificar');
 			Route::get('clienteEdit','ClientesController@edit');
 			Route::post('updateCliente','ClientesController@update');
+			Route::post('delete','ClientesController@delete');
 
 		});
 		Route::group(['prefix' => '/reportes'], function(){
@@ -101,7 +105,7 @@ Route::group(['prefix' => '/Adm'], function(){
 			Route::get('/artculos','reportesController@impArtReports')->name('impArtReport-reportes');
 			Route::get('/ReportesVentas','reportesController@indexReportVentas')->name('ReportVentas-reportes');
 			Route::post('/generarReporteVenta','reportesController@generarReporteventas')->name('generar-reporte-ventas');
-
+			Route::get('reportePrueba','reportesController@reportePrueba');
 		});
 
 });

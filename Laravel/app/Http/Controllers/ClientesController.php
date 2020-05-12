@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\clientes;
+use Auth;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
-
+use SebastianBergmann\Environment\Console;
 
 class ClientesController extends Controller
 {
@@ -109,8 +110,16 @@ class ClientesController extends Controller
      * @param  \App\clientes  $clientes
      * @return \Illuminate\Http\Response
      */
-    public function destroy(clientes $clientes)
+    public function delete(Request $request)
     {
-        //
+        if (Auth::user()->usu_cargo== 'Administrador'  ) {
+            return clientes::where('id',$request->input('id'))
+            ->update([ 
+                'ca_estado'=>'0',
+                ]);
+        } else {
+            return 'unauthorized';
+        }
+        
     }
 }

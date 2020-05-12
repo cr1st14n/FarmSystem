@@ -12,6 +12,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use App\factura;
+use DB;
 
 class VentaController extends Controller
 {
@@ -732,5 +733,10 @@ class VentaController extends Controller
             return"exito";
         }
 
+    }
+
+    public function anularVenta(Request $request)
+    {
+        return factura::where('id',$request->input('id'))->update(['fact_estado'=>0]); 
     }
 }

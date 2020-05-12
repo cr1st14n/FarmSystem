@@ -95,6 +95,7 @@
             <!-- /.box-body -->
             <div class="box-footer">
               <button type="submit" target="_blank" class="btn btn-success btn-xs btn-block">Generar imprecion</button>
+              <button type="button" class="btn btn-success btn-xs btn-block" id="btnGenRep">Generar imprecion en modal</button>
             </div>
             <!-- /.box-footer -->
           </form>
