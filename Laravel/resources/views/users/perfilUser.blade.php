@@ -10,7 +10,7 @@ function comprobarClave(){
 		document.getElementById('ActualizarKey').style.display = ''; 
    	}
    	else{  
-      	alert("Los campos no coindicen Buelva a intentarlo");
+      	// alert("Los campos no coindicen Buelva a intentarlo");
 		document.getElementById('ActualizarKey').style.display = 'none'; 
 	}
 } 
@@ -248,7 +248,7 @@ Farm System
 	      <div class="modal-body">
 	         <div class="register-box-body">
 			      <div class="form-group has-feedback">
-			        <input id="key1" type="password" name="key" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Contraseña" required="">
+			        <input id="key1" onkeyup="comprobarClave();" type="password" name="key" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Contraseña" required="" minlength="5" >
 			        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
 			        @if ($errors->has('password'))
                         <span class="invalid-feedback" role="alert">
@@ -257,7 +257,7 @@ Farm System
                     @endif
 			      </div>
 			      <div class="form-group has-feedback">
-			        <input id="key2" onchange="comprobarClave();" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Repetir Contraseña" required="">
+			        <input id="key2" onkeyup="comprobarClave();" type="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="Repetir Contraseña" required="" minlength="5">
 			        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
 			        @if ($errors->has('password'))
                         <span class="invalid-feedback" role="alert">

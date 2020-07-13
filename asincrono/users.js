@@ -123,3 +123,19 @@ function destroyUser(id) {
     }
   });
 }
+
+function resetKey(idUsu) {
+  $.ajax({
+    type: "Post",
+    url: "resetKey1",
+    data: {idUsu:idUsu, _token: $("meta[name=csrf-token]").attr("content")},
+    success: function (res) {
+      if (res==1) {
+        alertify.success('Contraseña restablecida a: 12345');
+        $('#modal-actualizatUser').modal('hide');
+      } else {
+        alertify.error('Error. Vueva a intentarlo');
+      }
+    }
+  });
+  }

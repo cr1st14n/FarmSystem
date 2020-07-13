@@ -29,6 +29,7 @@ Route::group(['prefix' => '/Adm'], function(){
 			Route::get('/perfil','UsuariosController@perfil')->name('perfil-usuario');
 			Route::any('/resetContraseña','UsuariosController@resetKey')->name('resetKey-usuario');
 			Route::any('/resetPassword1ADM/{ci}','UsuariosController@resetPasword')->name('reset-password');
+			Route::post('resetKey1','UsuariosController@resetKey1');
 		});
 		Route::group(['prefix' => '/AlmInven'], function(){
 			Route::get('/list','ArticulosController@index')->name('AlmInven-index');

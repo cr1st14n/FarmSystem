@@ -274,4 +274,9 @@ class UsuariosController extends Controller
             }
         }
     }
+    public function resetKey1(Request $request)
+    {
+        $res=usuarios::where('id',$request->input('idUsu'))->update(['password'=>bcrypt('12345')]);
+        return $res;
+    }
 }
