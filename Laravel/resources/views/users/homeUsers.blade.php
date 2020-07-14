@@ -117,7 +117,7 @@
           </div>
         </div>
         <div class="modal-footer">
-          <label>Contraseña de usuario por defecto " contraseña "</label>
+          <label>Contraseña de usuario por defecto " 12345 "</label>
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cerrar</button>
           <button type="submit" class="btn btn-primary">Guardar cambios</button>
         </div>

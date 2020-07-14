@@ -54,7 +54,7 @@ class UsuariosController extends Controller
         $user->usu_acceso = $request->input("acceso");
         $user->ca_estado = 1;
         $user->usu_cargo = $request->input("cargo");
-        $user->password = bcrypt($request->input("key"));
+        $user->password = bcrypt(12345);
         $user->save();
 
         return redirect()->action('UsuariosController@index');
@@ -213,7 +213,7 @@ class UsuariosController extends Controller
      */
     public function destroy(Request $request)
     {
-        $resul = usuarios::where('id', $request->input('id'))->update(['ca_estado' => 0]);
+        $resul = usuarios::where('id', $request->input('id'))->update(['ca_estado' => 0,'usu_ci'=>null]);
         if ($resul) {
             return 'success';
             // \Session::flash('flash_success', 'Se elimino al usuario');
