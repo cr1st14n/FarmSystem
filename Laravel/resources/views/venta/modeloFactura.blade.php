@@ -22,7 +22,7 @@
     <tr>
       <td>Actividad economica</td>
       <td>Servicios</td>
-    </tr>
+    </tr><br>
     <tr>
       <td>Fecha:</td>
       <td>{{$date}} / {{$time}}</td>
