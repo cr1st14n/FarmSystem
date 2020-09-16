@@ -20,6 +20,10 @@
     </p>
     <hr >
     <tr>
+      <td>Actividad economica</td>
+      <td>Servicios</td>
+    </tr>
+    <tr>
       <td>Fecha:</td>
       <td>{{$date}} / {{$time}}</td>
     </tr><br>
@@ -64,8 +68,11 @@
     <div class="" style="text-align:center">
       {!! QrCode::size(200)->generate($qr); !!}
     </div>
-    <p class="centrado">¡GRACIAS POR SU COMPRA!
-      <br>FARMACIA "SANTI"</p>
+    <p class="centrado">
+      Codigo de control:55-55-55-55 <br>
+      Fecha limite de emicion dd-mm-yyyy <br>
+      Ley # 453:Tienes derecho a un trato equitativo sin discriminacion en la oferta de servicios.
+    </p>
   </div>
 <script src="{{ asset('plantilla/bower_components/jquery/dist/jquery.min.js') }}"></script>
 <script type="text/javascript">
