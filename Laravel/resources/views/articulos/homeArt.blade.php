@@ -101,7 +101,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="input-group margin ">
-                                            <input type="text" class="form-control" placeholder="Nombre genrico" oninput="filtrarNomGenerico(this.value)">
+                                            <input type="text" class="form-control" placeholder="Nombre generico" oninput="filtrarNomGenerico(this.value)">
                                             <span class="input-group-addon">
                                                 <i class="fa fa-search"></i>
                                             </span>

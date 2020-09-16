@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except(['cont123',]);
     }
     public function indexAdm()
     {
@@ -121,8 +121,16 @@ class HomeController extends Controller
 
     public function cont123()
     {
-        $pdf = PDF::setPaper('a4')->loadView('welcome');
-        return $pdf->stream('invoice.pdf');
+
+        $clientes=clientes::limit(10)->get();
+        return Response()->json(
+            array(
+                'success' =>true , 
+                'message' =>"clientes", 
+                'listaClientes' =>$clientes 
+        ));
+        //$pdf = PDF::setPaper('a4')->loadView('welcome');
+        //return $pdf->stream('invoice.pdf');
         
     }
 }

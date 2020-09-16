@@ -149,6 +149,7 @@ function datosArt() {
         console.log(datos);
         document.getElementById('stockART').innerHTML=datos.sto_cantidad;
         document.getElementById('precioART').innerHTML=datos.art_costoVenta;
+        document.getElementById('nombreComercial').innerHTML=datos.art_nombreComercial;
         document.getElementById('nomGenericoArt').innerHTML=datos.art_nombreGenerico;
         document.getElementById('provedorArt').innerHTML=datos.prov_nombre;
         document.getElementById('art_accionTerapeutica').innerHTML=datos.art_accionTerapeutica;

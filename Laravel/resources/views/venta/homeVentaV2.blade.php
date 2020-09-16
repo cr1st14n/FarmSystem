@@ -137,8 +137,10 @@
                     {{--<img src="/FarmSystem/plantilla/dist/img/pastilla.jpg" width="100" height="100">--}}
                 </div>
                 <div class="col-md-3">
-                    <h4>Accion terapeutica: <strong id="art_accionTerapeutica">... </strong><br>
+                    <h4>
+                        Nombre Comercial: <strong id="nombreComercial">... </strong><br>
                         Nombre generico: <strong id="nomGenericoArt">...</strong><br>
+                        Accion terapeutica: <strong id="art_accionTerapeutica">... </strong><br>
                         Laboratorio: <strong id="art_laboratorio">...</strong><br>
                         Provedor havitual: <strong id="provedorArt">...</strong><br>
                     </h4>
