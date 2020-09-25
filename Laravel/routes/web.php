@@ -66,7 +66,8 @@ Route::group(['prefix' => '/Adm'], function(){
 			Route::post('/storeNomC','artInvController@storeNomC');
             Route::get('/storeAcTe/{at}','artInvController@storeAcTe');
             Route::get('/storeLiMa/{at}','artInvController@storeLiMa');
-            Route::post('/createART','artInvController@createART');
+			Route::post('/createART','artInvController@createART');
+			// *agregar ruta para eliminar item
 		});
 		Route::group(['prefix' => '/venta'], function(){
 			Route::get('/formulario','VentaController@index')->name('formularioVenta');

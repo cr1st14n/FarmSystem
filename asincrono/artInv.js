@@ -137,12 +137,22 @@ function subtractCantidad() {
         $("#agregarStock").modal('hide');
     })
 }
+// ! no esta eliminado el item designado
 function deletePro(idPro) {
     // alertify.set('notifier','position', 'top-center');
     var dlt= confirm("Desea eliminar este articulo!");
     if (dlt){
         alertify.success("Articulo eliminado");
         document.getElementById('listarticulos').innerHTML="";
+        $.ajax({
+            type: "method",
+            url: "url",
+            data: "data",
+            dataType: "dataType",
+            success: function (response) {
+                
+            }
+        });
     }else{
         alertify.warning("ERROR SERVER DELETE ARTICULO");
     }

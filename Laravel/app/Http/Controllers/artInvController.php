@@ -31,7 +31,7 @@ class artInvController extends Controller
     {
         $art = new articulos;
         $art->art_nombreGenerico = $request->input("art_nombreGenerico");
-        $art->art_nombreComercial = $request->input("   ");
+        $art->art_nombreComercial = $request->input("art_nombreComercial");
         $art->art_composicion = $request->input("art_composicion");
         $art->art_laboratorio = $request->input("art_laboratorio");
         $art->art_accionTerapeutica = $request->input("art_accionTerapeutica");
