@@ -151,7 +151,7 @@ function datosArt() {
         document.getElementById('precioART').innerHTML=datos.art_costoVenta;
         document.getElementById('nombreComercial').innerHTML=datos.art_nombreComercial;
         document.getElementById('nomGenericoArt').innerHTML=datos.art_nombreGenerico;
-        document.getElementById('provedorArt').innerHTML=datos.prov_nombre;
+        // document.getElementById('provedorArt').innerHTML=datos.prov_nombre;
         document.getElementById('art_accionTerapeutica').innerHTML=datos.art_accionTerapeutica;
         document.getElementById('art_laboratorio').innerHTML=datos.art_laboratorio;
         // console.log(datos);
@@ -165,7 +165,7 @@ function datosArt() {
         document.getElementById('cantidadArt').focus();
 
     });
-    document.getElementById('imagenArt').innerHTML=` <img src="/FarmSystem/plantilla/dist/img/pastilla.jpg" width="70" height="70">`;
+    document.getElementById('imagenArt').innerHTML=` <img src="/FarmSystem/plantilla/dist/img/pastilla.jpg" width="150" height="150">`;
 }
 function listCarrito() {
     $.get('/FarmSystem/Adm/venta/listaVentaV2',function (resp) {
@@ -236,13 +236,15 @@ function ventaVerificarStock() {
 function cerrarventa() {
     var cliente=document.getElementById('nitCliente').value;
     var pago = document.getElementById('ventaTipoPago').value;
+    var efec1 = document.getElementById('ventEfectivo').value;
+    var efec2 = document.getElementById('ventCambio').value;
     if (cliente == ""){
         alertify.warning("ingrese NIT clliente");
         document.getElementById('nitCliente').focus();
         $("#mdFacturar").modal('hide');
     }else{
         //Cerrar venta
-        $.get('/FarmSystem/Adm/venta/registrarVenta/'+cliente+'/pago/'+pago+'').done(function (data) {
+        $.get('/FarmSystem/Adm/venta/registrarVenta/'+cliente+'/pago/'+pago+'/efect1/'+efec1+'/efect2/'+efec2+'').done(function (data) {
             if  (data == "exito"){
                 // console.log(data);
                 alertify.success("Venta realizada");
@@ -280,7 +282,8 @@ function cerrarventaSF() {
         $("#mdFacturar").modal('hide');
     }else{
         //Cerrar venta
-        $.get('/FarmSystem/Adm/venta/registrarVenta/'+cliente+'/pago/'+pago+'').done(function (data) {
+        // $.get('/FarmSystem/Adm/venta/registrarVenta/'+cliente+'/pago/'+pago+'').done(function (data) {
+        $.get('/FarmSystem/Adm/venta/registrarVenta/'+cliente+'/pago/'+pago+'/efect1/'+efec1+'/efect2/'+efec2+'').done(function (data) {
             if  (data == "exito"){
                 // console.log(data);
                 alertify.success("Venta realizada");
@@ -323,7 +326,7 @@ function imprimirElemento(/*elemento*/) {
         ventana.focus();
         ventana.onload = function () {
             ventana.print();
-            ventana.close();
+            // ventana.close();
         }
         // return true;
     }).fail(function () {

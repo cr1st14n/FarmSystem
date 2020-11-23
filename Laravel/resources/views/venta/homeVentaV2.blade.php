@@ -99,7 +99,7 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="form-group">
                         <label>Seleccionar articulo</label>
                         <select id="articuloSelec" class="form-control select2 select2-hidden-accessible small" style="width: 100%;" aria-hidden="true" required tabindex="1">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="input-group ">
-                                <input type="number" id="cantidadArt" class="form-control" min="0" oninput="validar('cantidadArt')"  required placeholder="Unidades" tabindex="2"  >
+                                <input type="number" id="cantidadArt" class="form-control" min="0" oninput="validar('cantidadArt')" required placeholder="Unidades" tabindex="2">
                                 <div class="input-group-btn">
                                     <button id="btnAgregarArt" type="submit" class="btn btn-success" tabindex="4"><i class="fa fa-shopping-cart"></i></button>
                                 </div>
@@ -133,17 +133,22 @@
                     <!-- /.form-group -->
                 </div>
                 <!-- /.col -->
-                <div class="col-md-1" id="imagenArt">
-                    {{--<img src="/FarmSystem/plantilla/dist/img/pastilla.jpg" width="100" height="100">--}}
-                </div>
                 <div class="col-md-3">
-                    <h4>
+                    <p style="font-size:large;">
+                        <!-- hola que tal -->
+                        <br>
                         Nombre Comercial: <strong id="nombreComercial">... </strong><br>
                         Nombre generico: <strong id="nomGenericoArt">...</strong><br>
                         Accion terapeutica: <strong id="art_accionTerapeutica">... </strong><br>
                         Laboratorio: <strong id="art_laboratorio">...</strong><br>
-                        Provedor havitual: <strong id="provedorArt">...</strong><br>
+                        <!-- Provedor havitual: <strong id="provedorArt">...</strong><br> -->
+                    </p>
+
+                    <h4>
                     </h4>
+                </div>
+                <div class="col-md-2" id="imagenArt">
+                    {{--<img src="/FarmSystem/plantilla/dist/img/pastilla.jpg" width="200" height="200">--}}
                 </div>
                 <!-- /.col -->
                 <div class="col-md-3">
@@ -153,22 +158,22 @@
                     </h4>
                     <h4>
                     </h4>
-                        <form class=" form-horizontal">
-                            <div class="box-body">
-                                <div class="form-group">
-                                    <label for="ventEfectivo" class="col-sm-4 control-label">Efectivo</label>
-                                    <div class="col-sm-6">
-                                        <input type="number" class="form-control" id="ventEfectivo" placeholder="Efectivo" onkeyup="calcularCambio(this.value)">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="ventCambio" class="col-sm-4 control-label">Cambio</label>
-                                    <div class="col-sm-6">
-                                        <input type="number" class="form-control" id="ventCambio" placeholder="Cambio" value="890" disabled>
-                                    </div>
+                    <form class=" form-horizontal">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="ventEfectivo" class="col-sm-4 control-label">Efectivo</label>
+                                <div class="col-sm-6">
+                                    <input type="number" class="form-control" id="ventEfectivo" placeholder="Efectivo" onkeyup="calcularCambio(this.value)">
                                 </div>
                             </div>
-                        </form>
+                            <div class="form-group">
+                                <label for="ventCambio" class="col-sm-4 control-label">Cambio</label>
+                                <div class="col-sm-6">
+                                    <input type="number" class="form-control" id="ventCambio" placeholder="Cambio" value="890" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <!-- /.col -->
             </div>

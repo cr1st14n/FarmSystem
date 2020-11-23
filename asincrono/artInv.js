@@ -83,7 +83,8 @@ function showPro(idPro) {
 
         $.get('/FarmSystem/api/listProvedores/', function(provedor){
             console.log(provedor);
-            var html_select = '<option value="">'+articulo.prov_nombre+'</option>';
+            //* rella
+            var html_select ='<option value="'+articulo.art_proveedor+'">'+articulo.prov_nombre+'</option>';
             for (var i = provedor.length - 1; i >= 0; i--) {
                 html_select += '<option value="'+provedor[i].id+'">'+provedor[i].prov_nombre+'</option>';
                 $('#selectProvedor').html(html_select);
@@ -137,20 +138,22 @@ function subtractCantidad() {
         $("#agregarStock").modal('hide');
     })
 }
-// ! no esta eliminado el item designado
-function deletePro(idPro) {
+// ! no0 esta eliminado el item designado
+function deletePro(idPro){
     // alertify.set('notifier','position', 'top-center');
     var dlt= confirm("Desea eliminar este articulo!");
     if (dlt){
         alertify.success("Articulo eliminado");
         document.getElementById('listarticulos').innerHTML="";
         $.ajax({
-            type: "method",
-            url: "url",
-            data: "data",
-            dataType: "dataType",
+            type: "post",
+            url: "destroyProducto",
+            data:  { 
+                '_token': $('meta[name=csrf-token]').attr('content'),
+                id:idPro},
+            // dataType: "dataType",
             success: function (response) {
-                
+                console.log(response);
             }
         });
     }else{

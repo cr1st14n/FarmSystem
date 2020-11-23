@@ -176,16 +176,19 @@ class ArticulosController extends Controller
         ]);
         
     }
-    public function destroy($id)
+    public function destroy(Request $request)
     {
-        $resul = articulos::where('id', $id)->delete();
-        stock::where('cod_art', $id)->delete();
-        if ($resul) {
-            \Session::flash('flash_info', 'Articulo eliminado exitosamente');
-        } else {
-            \Session::flash('flash_danger', 'Error, Intentelo Nuevamente');
-        }
-        return redirect()->action('ArticulosController@index');
+        $resul = articulos::where('id', $request->input('id'))->delete();
+        stock::where('cod_art', $request->input('id'))->delete();
+        return $resul;
+
+
+        // if ($resul) {
+        //     \Session::flash('flash_info', 'Articulo eliminado exitosamente');
+        // } else {
+        //     \Session::flash('flash_danger', 'Error, Intentelo Nuevamente');
+        // }
+        // return redirect()->action('ArticulosController@index');
     }
     public function ListAjax()
     {

@@ -27,6 +27,8 @@ class VentaController extends Controller
         if(!\Session::has('cliente')) \Session::put('cliente');
         if(!\Session::has('dni')) \Session::put('dni');
         if(!\Session::has('numFactura')) \Session::put('numFactura');
+        if(!\Session::has('efect1')) \Session::put('efect1');
+        if(!\Session::has('efect2')) \Session::put('efect2');
     }
     public function index()
     {
@@ -136,6 +138,8 @@ class VentaController extends Controller
         \Session::forget('cliente');
         \Session::forget('dni');
         \Session::forget('carrito');
+        \Session::forget('efect1');
+        \Session::forget('efect2');
         $car=\Session::get('carrito');
 
         return "se borra el carrito";
@@ -154,6 +158,8 @@ class VentaController extends Controller
         $carrito = \Session::get('carrito');
         $cliente = \Session::get('cliente');
         $dni = \Session::get('dni');
+        $efect1 = \Session::get('efect1');
+        $efect2 = \Session::get('efect2');
         $numFactura = \Session::get('numFactura');
         $cantidadProductos = "0";
         $costoTotal = "0";
@@ -165,6 +171,8 @@ class VentaController extends Controller
         return view('venta.modeloFactura')
                     ->with('cantidadProductos',$cantidadProductos)
                     ->with('costoTotal',$costoTotal)
+                    ->with('e1',$efect1)
+                    ->with('e2',$efect2)
                     ->with('date',$date)
                     ->with('time',$time)
                     ->with('cliente',$cliente)
@@ -616,9 +624,9 @@ class VentaController extends Controller
         }
 
     }
-    public function registrarVenta($nit,$tipoPago)
+    public function registrarVenta($nit,$tipoPago,$efect1,$efect2)
     {
-    //return "$nit,$tipoPago";
+    // return "$nit,$tipoPago,$efect1,$efect2"; 
     //return "se registrara la venta";
     //ejecucion de resta del stock de los articulos en carrito
         $carrito = \Session::get('carrito');
@@ -694,6 +702,10 @@ class VentaController extends Controller
             $v->vent_canTipoArticulos = $cantTipoArticulos;
             $v->vent_canArticulosTotal = $cantTotalArticulos;
             $v->vent_efectivoTotal = $costototalArticulos;
+            
+            $v->vent_efectivo1 = $efect1;
+            $v->vent_efectivo2 = $efect2;
+
             $v->vent_IdCliente =$nit;
             $v->ca_cod_usu=Auth::user()->usu_ci;
             $v->ca_tipo="create";
@@ -724,6 +736,8 @@ class VentaController extends Controller
         \Session::put('numFactura',$fac->fact_numFactura);
         \Session::put('cliente',(clientes::where('id',$nit)->value('vent_clienteNombre')));
         \Session::put('dni',(clientes::where('id',$nit)->value('vent_clienteNit')));
+        \Session::put('efect1',$efect1);
+        \Session::put('efect2',$efect2);
 //        \Session::flash('imprimir_factura');
         /*return redirect()->action('VentaController@index');*/
         if ($artFalla){

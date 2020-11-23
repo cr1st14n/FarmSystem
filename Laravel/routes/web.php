@@ -42,6 +42,8 @@ Route::group(['prefix' => '/Adm'], function(){
             Route::get('/store','artInvController@store');
 			Route::get('/storeStock','artInvController@storeStock');
 			Route::post('/updateV2','ArticulosController@updateV2');
+
+			Route::post('destroyProducto','ArticulosController@destroy');
 		});
 		Route::group(['prefix' => '/proveedor'], function(){
 			Route::get('','ProvedoresController@index')->name('proveedor-index');
@@ -87,7 +89,7 @@ Route::group(['prefix' => '/Adm'], function(){
             Route::get('/eliminar/{id}','VentaController@eliminarDelCarritoV2');
             Route::get('/ventaVerificar','VentaController@verificarventa');
             Route::get('/ventaVerificarStock','VentaController@verificarventaStockArt');
-            Route::get('/registrarVenta/{nit}/pago/{pago}','VentaController@registrarVenta');
+            Route::get('/registrarVenta/{nit}/pago/{pago}/efect1/{efect1}/efect2/{efect2}','VentaController@registrarVenta');
             Route::post('/anularFactura','VentaController@anularVenta');
 
 
