@@ -276,6 +276,9 @@ function cerrarventa() {
 function cerrarventaSF() {
     var cliente=document.getElementById('nitCliente').value;
     var pago = document.getElementById('ventaTipoPago').value;
+    var efec1 = document.getElementById('ventEfectivo').value;
+    var efec2 = document.getElementById('ventCambio').value;
+
     if (cliente == ""){
         alertify.warning("ingrese NIT clliente");
         document.getElementById('nitCliente').focus();
