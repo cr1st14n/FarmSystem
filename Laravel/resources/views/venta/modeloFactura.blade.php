@@ -14,7 +14,7 @@
       <h2 class="centrado ">FARMACIA "SANTI"</h2>
     </p>
 
-    <hr style="background-color: : #000000">
+    <hr style="background-color:  #000000">
     <h3 class="centrado">FACTURA</h3>
 
     <p class="centrado">
